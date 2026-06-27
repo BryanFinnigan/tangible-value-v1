@@ -9,10 +9,15 @@ body {
   min-height: 100vh;
 }
 
-.hero {
+.hero,
+.newsletter,
+.pillars {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 72px 24px;
+  padding: 56px 24px;
+}
+
+.hero {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 42px;
@@ -24,7 +29,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
 }
 
 h1 {
@@ -99,13 +104,6 @@ h1 {
   margin: 0;
 }
 
-.newsletter,
-.pillars {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 24px;
-}
-
 .newsletter {
   background: #f2eee6;
   border-top: 1px solid #ded7cb;
@@ -171,9 +169,5 @@ h1 {
   .hero,
   .pillars {
     grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding-top: 48px;
   }
 }
