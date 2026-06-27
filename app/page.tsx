@@ -1,60 +1,173 @@
-export default function HomePage() {
-  return (
-    <main className="home">
-      <section className="hero">
-        <div className="heroCopy">
-          <p className="eyebrow">Knowledge • Value • Confidence</p>
-
-          <h1>Empowering confident decisions through education.</h1>
-
-          <p className="lede">
-            Learn about metals, coins, jewelry, antiquities, and other tangible
-            assets through clear guides, trusted source recommendations, and
-            practical market insights.
-          </p>
-
-          <div className="actions">
-            <a href="/learn" className="button primary">Start Learning</a>
-            <a href="/acquire" className="button secondary">Explore Sources</a>
-          </div>
-        </div>
-
-        <div className="heroImage" aria-label="Editorial image representing tangible assets">
-          <div className="imageFrame">
-            <p>Featured Guide</p>
-            <h2>Gold, silver, coins, jewelry, and antiquities.</h2>
-          </div>
-        </div>
-      </section>
-
-      <section className="newsletter">
-        <p className="eyebrow">Asset Dispatch</p>
-        <h2>Education delivered with purpose.</h2>
-        <p>
-          Practical insights, beginner guides, market context, and trusted source
-          recommendations delivered to your inbox.
-        </p>
-
-        <form>
-          <input type="email" placeholder="Enter your email" />
-          <button type="submit">Subscribe</button>
-        </form>
-      </section>
-
-      <section className="pillars">
-        <Card title="Learn" text="Beginner guides that make complex topics approachable." />
-        <Card title="Evaluate" text="Understand condition, authenticity, premiums, and value drivers." />
-        <Card title="Acquire" text="Compare sources and build confidence before buying." />
-      </section>
-    </main>
-  );
+body {
+  margin: 0;
+  background: #f7f4ee;
+  color: #1f2933;
+  font-family: Georgia, serif;
 }
 
-function Card({ title, text }: { title: string; text: string }) {
-  return (
-    <article className="card">
-      <h2>{title}</h2>
-      <p>{text}</p>
-    </article>
-  );
+.home {
+  min-height: 100vh;
+}
+
+.hero,
+.newsletter,
+.pillars {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.eyebrow {
+  color: #8a6f3d;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 0.95;
+  margin: 16px 0 24px;
+}
+
+.lede {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #5e6670;
+  max-width: 720px;
+}
+
+.actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 14px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #8a6f3d;
+}
+
+.primary {
+  background: #8a6f3d;
+  color: white;
+}
+
+.secondary {
+  color: #8a6f3d;
+}
+
+.heroImage {
+  min-height: 430px;
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 70% 25%, rgba(201,169,106,0.42), transparent 35%),
+    linear-gradient(135deg, #101820 0%, #2b251e 45%, #8a6f3d 100%);
+  box-shadow: 0 24px 80px rgba(16, 24, 32, 0.22);
+  position: relative;
+  overflow: hidden;
+}
+
+.imageFrame {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgba(201,169,106,0.38);
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px;
+  color: white;
+}
+
+.imageFrame p {
+  color: #c9a96a;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.imageFrame h2 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.newsletter {
+  background: #f2eee6;
+  border-top: 1px solid #ded7cb;
+  border-bottom: 1px solid #ded7cb;
+}
+
+.newsletter h2 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+.newsletter p {
+  color: #5e6670;
+  font-size: 1.15rem;
+  max-width: 680px;
+  line-height: 1.7;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.newsletter input {
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 1px solid #ded7cb;
+  min-width: 280px;
+  font-size: 1rem;
+}
+
+.newsletter button {
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: 1px solid #8a6f3d;
+  background: #8a6f3d;
+  color: white;
+  font-weight: 700;
+}
+
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ded7cb;
+  border-radius: 28px;
+  padding: 30px;
+  box-shadow: 0 12px 40px rgba(31, 41, 51, 0.05);
+}
+
+.card p {
+  color: #5e6670;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .hero,
+  .pillars {
+    grid-template-columns: 1fr;
+  }
 }
