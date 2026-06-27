@@ -1,46 +1,60 @@
 export default function HomePage() {
   return (
-    <main
-      style={{
-        maxWidth: "1100px",
-        margin: "0 auto",
-        padding: "80px 24px",
-        fontFamily: "Georgia, serif",
-      }}
-    >
-      <p
-        style={{
-          color: "#8A6F3D",
-          fontWeight: 700,
-          letterSpacing: "0.15em",
-          textTransform: "uppercase",
-        }}
-      >
-        Knowledge • Value • Confidence
-      </p>
+    <main className="home">
+      <section className="hero">
+        <div className="heroCopy">
+          <p className="eyebrow">Knowledge • Value • Confidence</p>
 
-      <h1
-        style={{
-          fontSize: "4rem",
-          lineHeight: 1,
-          marginBottom: "24px",
-        }}
-      >
-        Accessible knowledge for tangible assets.
-      </h1>
+          <h1>Empowering confident decisions through education.</h1>
 
-      <p
-        style={{
-          fontSize: "1.3rem",
-          lineHeight: 1.8,
-          color: "#555",
-          maxWidth: "700px",
-        }}
-      >
-        Tangible Value helps people learn about metals, coins, jewelry,
-        antiquities, and other tangible assets through trusted education,
-        thoughtful curation, and ethical source recommendations.
-      </p>
+          <p className="lede">
+            Learn about metals, coins, jewelry, antiquities, and other tangible
+            assets through clear guides, trusted source recommendations, and
+            practical market insights.
+          </p>
+
+          <div className="actions">
+            <a href="/learn" className="button primary">Start Learning</a>
+            <a href="/acquire" className="button secondary">Explore Sources</a>
+          </div>
+        </div>
+
+        <div className="heroImage" aria-label="Editorial image representing tangible assets">
+          <div className="imageFrame">
+            <p>Featured Guide</p>
+            <h2>Gold, silver, coins, jewelry, and antiquities.</h2>
+          </div>
+        </div>
+      </section>
+
+      <section className="newsletter">
+        <p className="eyebrow">Asset Dispatch</p>
+        <h2>Education delivered with purpose.</h2>
+        <p>
+          Practical insights, beginner guides, market context, and trusted source
+          recommendations delivered to your inbox.
+        </p>
+
+        <form>
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <section className="pillars">
+        <Card title="Learn" text="Beginner guides that make complex topics approachable." />
+        <Card title="Evaluate" text="Understand condition, authenticity, premiums, and value drivers." />
+        <Card title="Acquire" text="Compare sources and build confidence before buying." />
+      </section>
     </main>
+  );
+}
+
+function Card({ title, text }: { title: string; text: string }) {
+  return (
+    <article className="card">
+      <h2>{title}</h2>
+      <p>{text}</p>
+    </article>
   );
 }
