@@ -1,47 +1,54 @@
-export default function SpotPriceGuide() {
+export default function SpotPricePage() {
   return (
-    <main className="articlePage">
-      <article className="article">
+    <main className="home">
 
-        <p className="eyebrow">
-          FOUNDATIONAL KNOWLEDGE SERIES
-        </p>
+      <section className="hero">
+        <div>
 
-        <p className="chapter">
-          Chapter 2
-        </p>
-
-        <h1>Understanding Gold Spot Price vs. Purchase Price</h1>
-
-        <p className="lede">
-          One of the biggest surprises for first-time gold buyers is discovering
-          that the price they pay is usually higher than the price they see
-          quoted online. Understanding why is one of the most important lessons
-          for every precious metals buyer.
-        </p>
-
-        <section className="callout">
-
-          <h2>In Plain English</h2>
-
-          <p>
-            Think of the <strong>spot price</strong> as the wholesale value of
-            gold.
+          <p className="eyebrow">
+            FOUNDATIONAL KNOWLEDGE SERIES
           </p>
 
-          <p>
-            Think of the <strong>purchase price</strong> as what it actually
-            costs to own physical gold.
+          <p className="chapter">
+            Chapter 2
           </p>
 
-          <p>
-            The difference between those two numbers is completely normal.
+          <h1>Understanding Gold Spot Price vs. Purchase Price</h1>
+
+          <p className="lede">
+            One of the biggest surprises for first-time gold buyers is discovering
+            that the price they pay is often higher than the price they see quoted
+            online. Understanding why is one of the most important lessons every
+            precious metals buyer can learn.
           </p>
 
-        </section>
+        </div>
+      </section>
 
-        <section>
+      <section className="newsletter">
 
+        <h2>In Plain English</h2>
+
+        <p>
+          Think of the <strong>spot price</strong> as the wholesale value of
+          gold.
+        </p>
+
+        <p>
+          Think of the <strong>purchase price</strong> as what it actually
+          costs to own physical gold.
+        </p>
+
+        <p>
+          The difference between those two numbers is called the
+          <strong> premium</strong>.
+        </p>
+
+      </section>
+
+      <section className="pillars">
+
+        <div className="card">
           <h2>Why This Matters</h2>
 
           <ul>
@@ -50,32 +57,25 @@ export default function SpotPriceGuide() {
             <li>Avoid common beginner mistakes.</li>
             <li>Make informed purchasing decisions.</li>
           </ul>
+        </div>
 
-        </section>
-
-        <section>
+        <div className="card">
 
           <h2>What Is Spot Price?</h2>
 
           <p>
-            The spot price is the current market value of one troy ounce of raw,
+            Spot price is the current market value of one troy ounce of raw,
             unfabricated gold traded on global commodity markets.
           </p>
 
           <p>
-            Think of it as the wholesale price before gold becomes a finished
-            coin or bar.
+            Think of it as the wholesale value of gold before it becomes a coin
+            or bar.
           </p>
 
-          <p>
-            Spot prices change throughout the trading day as markets respond to
-            supply and demand, inflation, interest rates, currencies, and world
-            events.
-          </p>
+        </div>
 
-        </section>
-
-        <section>
+        <div className="card">
 
           <h2>What Is Purchase Price?</h2>
 
@@ -84,228 +84,171 @@ export default function SpotPriceGuide() {
           </p>
 
           <p>
-            It includes the market value of the gold plus the costs of refining,
-            minting, transporting, storing, and selling the finished product.
+            It includes the spot price plus dealer premiums and any applicable
+            shipping or insurance costs.
           </p>
 
-        </section>
+        </div>
 
-        <section className="formula">
+      </section>
 
-          <h2>How Purchase Price Is Calculated</h2>
+      <section className="newsletter">
 
-          <div className="formulaBox">
-            <div>Spot Price</div>
-            <div>+</div>
-            <div>Dealer Premium</div>
-            <div>+</div>
-            <div>Shipping & Insurance</div>
-            <div>=</div>
-            <div><strong>Purchase Price</strong></div>
-          </div>
+        <h2>How Purchase Price Is Built</h2>
 
-        </section>
+        <h3>
+          Spot Price
+          <br />
+          +
+          <br />
+          Dealer Premium
+          <br />
+          +
+          <br />
+          Shipping &amp; Insurance
+          <br />
+          =
+          <br />
+          Purchase Price
+        </h3>
 
-        <section>
+      </section>
 
-          <h2>Understanding Premiums</h2>
+      <section className="pillars">
 
-          <p>
-            The amount above the spot price is called the premium.
-          </p>
-
-          <p>
-            Premiums help cover the costs of:
-          </p>
-
-          <ul>
-            <li>Refining</li>
-            <li>Minting</li>
-            <li>Packaging</li>
-            <li>Transportation</li>
-            <li>Insurance</li>
-            <li>Inventory</li>
-            <li>Business operations</li>
-          </ul>
-
-          <p>
-            Every reputable precious metals dealer charges a premium.
-          </p>
-
-        </section>
-
-        <section>
+        <div className="card">
 
           <h2>Example</h2>
 
-          <table>
-            <tbody>
-              <tr>
-                <td>Spot Price</td>
-                <td>$3,400</td>
-              </tr>
+          <p><strong>Spot Price:</strong> $3,400</p>
 
-              <tr>
-                <td>Dealer Premium</td>
-                <td>$120</td>
-              </tr>
+          <p><strong>Dealer Premium:</strong> $120</p>
 
-              <tr>
-                <td><strong>Total Purchase Price</strong></td>
-                <td><strong>$3,520</strong></td>
-              </tr>
-            </tbody>
-          </table>
+          <p><strong>Total Purchase Price:</strong> $3,520</p>
 
           <p>
-            These figures are examples only. Gold prices and dealer premiums
-            change continuously.
+            Example only. Gold prices and premiums change continuously.
           </p>
 
-        </section>
+        </div>
 
-        <section>
-
-          <h2>Spot Price vs. Purchase Price</h2>
-
-          <table>
-
-            <thead>
-              <tr>
-                <th>Spot Price</th>
-                <th>Purchase Price</th>
-              </tr>
-            </thead>
-
-            <tbody>
-
-              <tr>
-                <td>Wholesale market value</td>
-                <td>Retail purchase price</td>
-              </tr>
-
-              <tr>
-                <td>Changes constantly</td>
-                <td>Varies by dealer</td>
-              </tr>
-
-              <tr>
-                <td>Raw gold value</td>
-                <td>Finished physical product</td>
-              </tr>
-
-              <tr>
-                <td>No manufacturing costs</td>
-                <td>Includes premiums and services</td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-        </section>
-
-        <section className="tip">
+        <div className="card">
 
           <h2>Beginner Tip</h2>
 
           <p>
-            When comparing gold dealers, look beyond the advertised premium.
-            Compare:
+            Compare the total delivered price—not just the premium.
           </p>
 
           <ul>
-            <li>Total delivered price</li>
-            <li>Shipping costs</li>
+            <li>Shipping</li>
             <li>Insurance</li>
-            <li>Payment options</li>
+            <li>Payment methods</li>
             <li>Dealer reputation</li>
           </ul>
 
-        </section>
+        </div>
 
-        <section className="myth">
+        <div className="card">
 
           <h2>Common Myth</h2>
 
-          <h3>"I should be able to buy gold at spot price."</h3>
-
           <p>
-            In almost every retail purchase, physical gold sells above spot
-            price because it must be refined, minted, transported, stored, and
-            insured before reaching the buyer.
+            "I should be able to buy gold at spot price."
           </p>
 
-        </section>
-
-        <section>
-
-          <h2>Frequently Asked Questions</h2>
-
-          <h3>Can I buy gold at spot price?</h3>
-
           <p>
-            Usually not. Retail buyers pay premiums that cover the costs of
-            producing and distributing physical gold.
+            Retail buyers almost always pay above spot because physical gold
+            must be refined, minted, transported, stored, and sold.
           </p>
 
-          <h3>Do premiums change?</h3>
+        </div>
 
-          <p>
-            Yes. Premiums fluctuate based on demand, supply, and market
-            conditions.
-          </p>
+      </section>
 
-          <h3>Is a higher premium always bad?</h3>
+      <section className="newsletter">
 
-          <p>
-            No. Some products command higher premiums because they are easier to
-            resell or have stronger collector demand.
-          </p>
+        <h2>Frequently Asked Questions</h2>
 
-        </section>
+        <h3>Can I buy gold at spot price?</h3>
 
-        <section className="callout">
+        <p>
+          Generally, no. Physical bullion almost always sells above the spot
+          price.
+        </p>
 
-          <h2>Before You Buy</h2>
+        <h3>Do premiums change?</h3>
 
-          <ul>
-            <li>☐ Compare total purchase prices.</li>
-            <li>☐ Review shipping and insurance.</li>
-            <li>☐ Research the dealer.</li>
-            <li>☐ Understand whether you're buying bullion or collectible coins.</li>
-            <li>☐ Never compare products using spot price alone.</li>
-          </ul>
+        <p>
+          Yes. Premiums rise and fall based on supply, demand, and market
+          conditions.
+        </p>
 
-        </section>
+        <h3>Is a higher premium always bad?</h3>
 
-        <section>
+        <p>
+          Not necessarily. Some products command higher premiums because of
+          demand or collector interest.
+        </p>
 
-          <h2>Knowledge in Practice</h2>
+      </section>
 
-          <p>
-            Imagine comparing the same one-ounce gold coin from three reputable
-            dealers. Rather than focusing only on the advertised premium,
-            compare the total delivered cost, payment options, shipping,
-            insurance, return policies, and the dealer's reputation. The best
-            purchase isn't always the cheapest—it's the one that offers the best
-            overall value and confidence.
-          </p>
+      <section className="newsletter">
 
-        </section>
+        <h2>Before You Buy</h2>
 
-        <section>
+        <ul>
+          <li>✓ Compare total purchase prices.</li>
+          <li>✓ Review shipping costs.</li>
+          <li>✓ Review insurance.</li>
+          <li>✓ Research the dealer.</li>
+          <li>✓ Understand whether you're buying bullion or collectibles.</li>
+        </ul>
 
-          <h2>Continue Learning</h2>
+      </section>
 
-          <ul>
-            <li>← Chapter 1 — Beginner's Guide to Investing in Gold, Silver & Coins</li>
-            <li>→ Chapter 3 — Gold's Hidden Costs (Coming Soon)</li>
-          </ul>
+      <section className="newsletter">
 
-        </section>
+        <h2>Knowledge in Practice</h2>
 
-      </article>
+        <p>
+          Imagine comparing the same one-ounce gold coin from three reputable
+          dealers. Rather than focusing only on the advertised premium, compare
+          the total delivered price, shipping, insurance, return policy, and
+          dealer reputation. The best purchase isn't always the lowest listed
+          price—it's the one that provides the best overall value.
+        </p>
+
+      </section>
+
+      <section className="newsletter">
+
+        <h2>Continue Learning</h2>
+
+        <p>
+          ←{" "}
+          <a href="/learn/beginners-guide-gold-silver-coins">
+            Chapter 1 — A Beginner&apos;s Guide to Investing in Gold, Silver &amp;
+            Coins
+          </a>
+        </p>
+
+        <p>
+          →{" "}
+          <a href="/learn/gold-hidden-costs">
+            Chapter 3 — Gold&apos;s Hidden Costs: Premiums, Shipping, Storage &amp;
+            Insurance
+          </a>
+        </p>
+
+        <p>
+          <a href="/learn">
+            Return to the Knowledge Library
+          </a>
+        </p>
+
+      </section>
+
     </main>
   );
 }
