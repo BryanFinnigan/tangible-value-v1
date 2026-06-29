@@ -65,6 +65,11 @@ export default function LearnPage() {
               Understanding Spot Price vs Purchase Price
             </a>
           </li>
+<li>
+  <a href="/learn/gold-hidden-costs">
+    Chapter 3 — Gold&apos;s Hidden Costs: Premiums, Shipping, Storage &amp; Insurance
+  </a>
+</li>
         </ul>
       </section>
 
