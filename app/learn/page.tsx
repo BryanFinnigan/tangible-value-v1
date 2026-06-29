@@ -1,108 +1,87 @@
+export const metadata = {
+  title: "Learn About Gold, Silver, Coins & Tangible Assets | Tangible Knowledge",
+  description:
+    "Explore beginner guides on gold, silver, coins, premiums, hidden costs, buying safely, and tangible assets.",
+};
+
 export default function LearnPage() {
   return (
-    <main
-      style={{
-        maxWidth: "1100px",
-        margin: "0 auto",
-        padding: "80px 24px",
-        fontFamily: "Georgia, serif",
-      }}
-    >
-      <p
-        style={{
-          color: "#8A6F3D",
-          fontWeight: 700,
-          letterSpacing: "0.15em",
-          textTransform: "uppercase",
-        }}
-      >
-        Learn • Empowerment Through Education
-      </p>
+    <main className="home">
+      <section className="hero">
+        <div>
+          <p className="eyebrow">TANGIBLE KNOWLEDGE LIBRARY</p>
 
-      <h1
-        style={{
-          fontSize: "3.5rem",
-          lineHeight: 1.1,
-          marginBottom: "20px",
-        }}
-      >
-        Build confidence before you buy.
-      </h1>
+          <h1>Learn before you buy.</h1>
 
-      <p
-        style={{
-          fontSize: "1.2rem",
-          lineHeight: 1.8,
-          color: "#555",
-          maxWidth: "720px",
-          marginBottom: "50px",
-        }}
-      >
-        Our growing knowledge base is designed to help beginners understand
-        precious metals, coins, jewelry, antiquities, and other tangible assets.
-        Whether you're making your first purchase or expanding a collection,
-        you'll find practical guidance built on research—not sales pressure.
-      </p>
-
-      <section style={{ marginBottom: "60px" }}>
-        <h2>Start Here</h2>
-
-        <ul style={{ lineHeight: 2 }}>
-          <li>
-            <a href="/learn/beginners-guide-gold-silver-coins">
-              Beginner's Guide to Investing in Gold, Silver & Coins
-            </a>
-          </li>
-
-          <li>
-            <a href="/learn/what-are-tangible-assets">
-              What Are Tangible Assets?
-            </a>
-          </li>
-
-          <li>
-            <a href="/learn/spot-price-vs-premium">
-              Understanding Spot Price vs Purchase Price
-            </a>
-          </li>
-<li>
-  <a href="/learn/gold-hidden-costs">
-    Chapter 3 — Gold&apos;s Hidden Costs: Premiums, Shipping, Storage &amp; Insurance
-  </a>
-</li>
-        </ul>
+          <p className="lede">
+            Build confidence with beginner-friendly guides on gold, silver,
+            coins, jewelry, antiquities, and other tangible assets.
+          </p>
+        </div>
       </section>
 
-      <section style={{ marginBottom: "60px" }}>
-        <h2>Explore by Topic</h2>
+      <section className="newsletter">
+        <h2>Start Here: Foundational Knowledge Series</h2>
 
-        <ul style={{ lineHeight: 2 }}>
-          <li>Gold Investing</li>
-          <li>Silver Investing</li>
-          <li>Coin Collecting</li>
-          <li>Bullion</li>
-          <li>Estate Jewelry</li>
-          <li>Antiquities & Collectibles</li>
-          <li>Buying Safely</li>
-          <li>Market Education</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Our Mission</h2>
-
-        <p
-          style={{
-            maxWidth: "760px",
-            lineHeight: 1.8,
-            color: "#555",
-          }}
-        >
-          At Tangible Value, we believe education creates confidence.
-          Our mission is to empower collectors, investors, and curious
-          beginners with trustworthy, accessible knowledge so they can make
-          informed decisions about tangible assets.
+        <p>
+          This learning path introduces the key concepts every beginner should
+          understand before buying, collecting, or evaluating tangible assets.
         </p>
+      </section>
+
+      <section className="pillars">
+        <a className="card" href="/learn/beginners-guide-gold-silver-coins">
+          <p className="eyebrow">Chapter 1</p>
+          <h2>Beginner&apos;s Guide to Gold, Silver &amp; Coins</h2>
+          <p>
+            A first-chapter overview of precious metals, coins, and tangible
+            assets.
+          </p>
+        </a>
+
+        <a className="card" href="/learn/spot-price-vs-purchase-price">
+          <p className="eyebrow">Chapter 2</p>
+          <h2>Gold Spot Price vs. Purchase Price</h2>
+          <p>
+            Understand why the price quoted online is different from what you
+            pay for physical gold.
+          </p>
+        </a>
+
+        <a className="card" href="/learn/gold-hidden-costs">
+          <p className="eyebrow">Chapter 3</p>
+          <h2>Gold&apos;s Hidden Costs</h2>
+          <p>
+            Learn how premiums, shipping, storage, insurance, and taxes affect
+            total ownership cost.
+          </p>
+        </a>
+      </section>
+
+      <section className="newsletter">
+        <h2>Coming Next</h2>
+
+        <ul>
+          <li>Chapter 4 — How to Buy Your First Gold Coin</li>
+          <li>Chapter 5 — Bullion vs. Numismatic Coins</li>
+          <li>Chapter 6 — Buying Silver: Coins, Bars &amp; Rounds</li>
+          <li>Chapter 7 — Understanding Purity, Karats &amp; Hallmarks</li>
+          <li>Chapter 8 — Storing Precious Metals Safely</li>
+        </ul>
+      </section>
+
+      <section className="newsletter">
+        <h2>Browse by Topic</h2>
+
+        <ul>
+          <li>Gold investing basics</li>
+          <li>Silver investing basics</li>
+          <li>Coin collecting</li>
+          <li>Precious metal premiums</li>
+          <li>Buying safely online</li>
+          <li>Storage and insurance</li>
+          <li>Jewelry, art, and antiquities</li>
+        </ul>
       </section>
     </main>
   );
