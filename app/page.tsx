@@ -14,29 +14,29 @@ export default function HomePage() {
           </p>
 
           <div className="actions">
-            <a href="/learn" className="button primary">
-              Start Learning
+            <a href="/wiki" className="button primary">
+              Explore the Wiki
             </a>
 
-            <a href="/acquire" className="button secondary">
-              Explore Sources
+            <a href="/learn" className="button secondary">
+              Start Learning
             </a>
           </div>
         </div>
 
         <div className="heroImage">
           <div className="imageFrame">
-            <p>Featured Guide</p>
+            <p>Featured Reference</p>
 
-            <h2>Gold Spot Price vs. Purchase Price</h2>
+            <h2>The Precious Metals Wiki</h2>
 
             <p>
-              Learn why the price quoted online is different from the amount
-              you actually pay when buying physical gold.
+              Reference pages for coins, bullion, bars, melt value, premiums,
+              authentication, and resale context.
             </p>
 
-            <a href="/learn/spot-price-vs-purchase-price" className="button primary">
-              Read Guide →
+            <a href="/wiki" className="button primary">
+              Open Wiki →
             </a>
           </div>
         </div>
@@ -60,17 +60,18 @@ export default function HomePage() {
       </section>
 
       <section className="pillars">
+        <a href="/wiki" className="card">
+          <h2>Wiki</h2>
+          <p>
+            Search reference pages for coins, bars, melt values, premiums, and
+            precious-metal resale context.
+          </p>
+        </a>
+
         <a href="/learn" className="card">
           <h2>Learn</h2>
           <p>
             Beginner guides that make complex topics approachable.
-          </p>
-        </a>
-
-        <a href="/learn/spot-price-vs-purchase-price" className="card">
-          <h2>Evaluate</h2>
-          <p>
-            Understand spot price, premiums, purchase price, and value drivers.
           </p>
         </a>
 
