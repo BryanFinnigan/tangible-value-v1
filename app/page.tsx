@@ -9,37 +9,63 @@ export default function HomePage() {
 
           <p className="lede">
             Learn about metals, coins, jewelry, antiquities, and other tangible
-            assets through clear guides, trusted source recommendations, and
-            practical market insights.
+            assets through clear guides, trusted source recommendations, practical
+            match tools, and market context.
           </p>
 
           <div className="actions">
-            <a href="/wiki" className="button primary">
-              Explore the Wiki
+            <a href="/tools/metal-match" className="button primary">
+              Find Your Match
             </a>
 
-            <a href="/learn" className="button secondary">
-              Start Learning
+            <a href="/wiki" className="button secondary">
+              Explore the Wiki
             </a>
           </div>
         </div>
 
         <div className="heroImage">
           <div className="imageFrame">
-            <p>Featured Reference</p>
+            <p>Featured Tool</p>
 
-            <h2>The Precious Metals Wiki</h2>
+            <h2>Metal Match + Sell Match</h2>
 
             <p>
-              Reference pages for coins, bullion, bars, melt value, premiums,
-              authentication, and resale context.
+              Match a budget to common precious-metal formats or identify what
+              you are selling before accepting an offer.
             </p>
 
-            <a href="/wiki" className="button primary">
-              Open Wiki →
+            <a href="/tools" className="button primary">
+              Open Tools →
             </a>
           </div>
         </div>
+      </section>
+
+      <section className="pillars">
+        <a href="/tools/metal-match" className="card">
+          <h2>Metal Match</h2>
+          <p>
+            Enter a budget and compare coins, bars, rounds, and 90% silver with
+            links into the relevant Wiki pages.
+          </p>
+        </a>
+
+        <a href="/tools/sell-match" className="card">
+          <h2>Sell Match</h2>
+          <p>
+            Choose what you have, estimate the value basis, and slow down before
+            accepting an offer.
+          </p>
+        </a>
+
+        <a href="/wiki" className="card">
+          <h2>Wiki</h2>
+          <p>
+            Search reference pages for coins, bars, melt values, premiums, and
+            precious-metal resale context.
+          </p>
+        </a>
       </section>
 
       <section className="newsletter">
@@ -60,14 +86,6 @@ export default function HomePage() {
       </section>
 
       <section className="pillars">
-        <a href="/wiki" className="card">
-          <h2>Wiki</h2>
-          <p>
-            Search reference pages for coins, bars, melt values, premiums, and
-            precious-metal resale context.
-          </p>
-        </a>
-
         <a href="/learn" className="card">
           <h2>Learn</h2>
           <p>
@@ -79,6 +97,14 @@ export default function HomePage() {
           <h2>Acquire</h2>
           <p>
             Compare sources and build confidence before buying.
+          </p>
+        </a>
+
+        <a href="/tools" className="card">
+          <h2>Tools</h2>
+          <p>
+            Use lightweight match tools that connect simple questions to deeper
+            reference pages.
           </p>
         </a>
       </section>

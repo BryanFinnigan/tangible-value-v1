@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import AffiliateActionPanel from "@/components/AffiliateActionPanel";
 import AssaySpecificationTable from "@/components/AssaySpecificationTable";
-import InteractiveMetalValueChart from "@/components/InteractiveMetalValueChart";
 import RelatedAssetsGrid from "@/components/RelatedAssetsGrid";
 import SourceMethodologyPanel from "@/components/SourceMethodologyPanel";
 import WikiBreadcrumbs from "@/components/WikiBreadcrumbs";
@@ -41,11 +41,6 @@ export default async function WikiAssetPage({ params }: PageProps) {
 
       <section className="wikiLayout">
         <div className="wikiMainColumn">
-          <section className="wikiPanel">
-            <h2>36-Month Estimated Market Telemetry</h2>
-            <InteractiveMetalValueChart data={asset.chart_telemetry_historical_36mo} />
-          </section>
-
           <section className="wikiPanel">
             <h2>Why It Matters</h2>
             <p>{asset.content_blocks.why_it_matters}</p>
@@ -93,6 +88,7 @@ export default async function WikiAssetPage({ params }: PageProps) {
             </div>
             <p className="finePrint">{asset.valuation_snapshot.valuation_note}</p>
           </section>
+          <AffiliateActionPanel links={asset.ui_placeholders} />
           <AssaySpecificationTable asset={asset} />
         </aside>
       </section>
