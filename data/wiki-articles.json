@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "what-is-spot-price",
+    "title": "What Is Spot Price?",
+    "meta_title": "What Is Spot Price? Precious Metals Wiki",
+    "meta_description": "Plain-language explanation of precious-metal spot price and why physical coins and bars usually trade above or below it.",
+    "category": "Valuation Basics",
+    "summary": "Spot price is the quoted market price for a precious metal, usually expressed per troy ounce. It is a reference point, not the exact price a consumer pays or receives for a physical coin or bar.",
+    "sections": [
+      { "heading": "Spot is a benchmark", "body": "The spot price gives buyers and sellers a common reference for gold, silver, platinum, or palladium. Physical products still include premiums, spreads, fabrication costs, and dealer margins." },
+      { "heading": "Physical products are not spot itself", "body": "A one-ounce coin may contain one troy ounce of metal, but its market price can sit above spot because of minting, recognition, scarcity, and retail demand. A dealer buyback offer may sit below retail because the dealer needs a resale margin." },
+      { "heading": "How to use spot responsibly", "body": "Use spot as the baseline for melt value, then compare the actual product premium and the likely buyback spread. This helps prevent overpaying when buying and underselling when selling." }
+    ],
+    "related_asset_ids": ["us-gold-eagle-1oz-bullion", "us-silver-eagle-1oz-bullion", "generic-gold-bar-1oz"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/what-is-spot-price",
+    "primary_search_intent": "definition",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "This article is educational and does not provide live pricing, investment advice, or guaranteed resale values.",
+    "implementation_mapping": { "dynamic_route_slug": "what-is-spot-price", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  },
+  {
+    "slug": "melt-value-explained",
+    "title": "Melt Value Explained",
+    "meta_title": "Melt Value Explained for Coins and Bullion",
+    "meta_description": "Learn how melt value is calculated for gold and silver coins, bars, and constitutional silver.",
+    "category": "Valuation Basics",
+    "summary": "Melt value is the estimated value of the precious metal content inside a coin, round, or bar. It is calculated from fine metal weight multiplied by the current spot price.",
+    "sections": [
+      { "heading": "The basic formula", "body": "Melt value equals fine precious-metal weight multiplied by spot price per troy ounce. For a 1 oz gold bullion coin, one troy ounce times gold spot gives the baseline metal value." },
+      { "heading": "Coins can trade above melt", "body": "Many coins trade above melt because they carry a premium for recognition, condition, scarcity, or mint origin. This is why melt value should be treated as a floor reference, not always the final market value." },
+      { "heading": "Why sellers should calculate it", "body": "Knowing melt value helps a seller evaluate whether an offer is fair, especially for common bullion, scrap, and constitutional silver." }
+    ],
+    "related_asset_ids": ["us-90-percent-silver-quarter", "generic-gold-bar-1oz", "us-gold-eagle-1oz-bullion"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/melt-value-explained",
+    "primary_search_intent": "melt value",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "Melt calculations are educational estimates and should be checked against current market quotes before a transaction.",
+    "implementation_mapping": { "dynamic_route_slug": "melt-value-explained", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  },
+  {
+    "slug": "premiums-over-spot",
+    "title": "Premiums Over Spot",
+    "meta_title": "Premiums Over Spot for Gold and Silver",
+    "meta_description": "Understand why coins, bars, and rounds trade above spot and how premiums affect buying and selling precious metals.",
+    "category": "Valuation Basics",
+    "summary": "A premium over spot is the amount paid above the metal's baseline spot value. Premiums vary by product type, mint recognition, size, demand, and dealer inventory.",
+    "sections": [
+      { "heading": "Why premiums exist", "body": "Physical products must be refined, fabricated, transported, inventoried, authenticated, and resold. Those costs and the market's demand for recognizable products create premiums." },
+      { "heading": "Premiums differ by format", "body": "Fractional gold often has higher percentage premiums than one-ounce gold. Sovereign coins often carry higher premiums than generic bars. Silver coins can carry much higher percentage premiums than large silver bars." },
+      { "heading": "Premium does not equal profit", "body": "A buyer may pay a premium at retail, but a future buyback offer may include a spread. The premium must be evaluated against liquidity and resale demand." }
+    ],
+    "related_asset_ids": ["us-gold-eagle-1oz-bullion", "us-silver-eagle-1oz-bullion", "canada-gold-maple-leaf-1oz"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/premiums-over-spot",
+    "primary_search_intent": "definition",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "Premium examples are educational and vary by dealer, market conditions, and product availability.",
+    "implementation_mapping": { "dynamic_route_slug": "premiums-over-spot", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  },
+  {
+    "slug": "dealer-buyback-spread",
+    "title": "Dealer Buyback Spread",
+    "meta_title": "Dealer Buyback Spread Explained",
+    "meta_description": "Learn why dealer buyback offers differ from retail prices and how to compare offers for coins, bars, and silver.",
+    "category": "Selling Metals",
+    "summary": "The buyback spread is the difference between the price a dealer sells a product for and the price they are willing to pay to buy it back. Understanding the spread helps sellers compare offers more calmly.",
+    "sections": [
+      { "heading": "Retail and buyback are different markets", "body": "Retail pricing includes a dealer's cost of inventory, authentication, overhead, and resale margin. Buyback pricing reflects what the dealer can pay while still managing risk and reselling the item." },
+      { "heading": "Highly liquid products usually have tighter spreads", "body": "Major sovereign coins and recognized bars often have better buyback treatment than obscure products. Damaged, questionable, or unpackaged items may receive wider spreads." },
+      { "heading": "How sellers can compare offers", "body": "Ask whether the offer is based on spot, melt value, product premium, or numismatic value. Comparing two or three quotes can reveal whether one offer is unusually low." }
+    ],
+    "related_asset_ids": ["us-gold-eagle-1oz-bullion", "generic-gold-bar-1oz", "us-90-percent-silver-quarter"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/dealer-buyback-spread",
+    "primary_search_intent": "sell research",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "Buyback spreads vary by dealer and market conditions. This page is educational, not a quote or recommendation.",
+    "implementation_mapping": { "dynamic_route_slug": "dealer-buyback-spread", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  },
+  {
+    "slug": "assay-and-authentication",
+    "title": "Assay and Authentication",
+    "meta_title": "Assay and Authentication for Precious Metals",
+    "meta_description": "Reference guide to assay, weight, dimensions, magnet testing, and authentication considerations for precious-metal products.",
+    "category": "Authentication",
+    "summary": "Authentication is the process of confirming that a coin, bar, or round is genuine and contains the expected metal content. No single casual test is perfect, especially for high-value gold.",
+    "sections": [
+      { "heading": "Specifications matter", "body": "Weight, diameter, thickness, edge detail, and design features should be checked against known specifications. A mismatch does not always prove fraud, but it requires caution." },
+      { "heading": "Assay is stronger than appearance", "body": "Gold-plated counterfeits and altered pieces can look convincing. Electronic testing, XRF, ultrasound, or professional assay can provide stronger evidence than visual inspection." },
+      { "heading": "Packaging is helpful but not final", "body": "Sealed assay packaging can support confidence for bars, but packaging can also be imitated. Trusted sources and careful verification remain important." }
+    ],
+    "related_asset_ids": ["generic-gold-bar-1oz", "us-gold-buffalo-1oz-bullion", "us-silver-eagle-1oz-bullion"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/assay-and-authentication",
+    "primary_search_intent": "authentication",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "Authentication guidance is educational. For valuable items, use a qualified dealer, grading service, or professional testing method.",
+    "implementation_mapping": { "dynamic_route_slug": "assay-and-authentication", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  },
+  {
+    "slug": "liquidity-and-divisibility",
+    "title": "Liquidity and Divisibility",
+    "meta_title": "Liquidity and Divisibility in Precious Metals",
+    "meta_description": "Learn how product size affects flexibility, resale options, and portfolio divisibility for gold and silver.",
+    "category": "Portfolio Structure",
+    "summary": "Liquidity describes how easily an asset can be sold. Divisibility describes how easily value can be broken into smaller pieces without selling more metal than intended.",
+    "sections": [
+      { "heading": "Small products are flexible", "body": "Fractional coins and constitutional silver can be easier to sell in smaller amounts. The tradeoff is that small products often carry higher percentage premiums when purchased." },
+      { "heading": "Large products can be efficient", "body": "Large bars may have lower premiums per ounce, but selling them requires finding a buyer for the full unit. That can reduce flexibility for a consumer seller." },
+      { "heading": "A balanced stack considers both", "body": "A practical metals position may include highly recognizable coins, divisible silver, and lower-premium bars depending on goals and resale expectations." }
+    ],
+    "related_asset_ids": ["us-90-percent-silver-quarter", "us-silver-eagle-1oz-bullion", "generic-gold-bar-1oz"],
+    "content_type": "Wiki Article",
+    "recommended_url_path": "/wiki/topics/liquidity-and-divisibility",
+    "primary_search_intent": "portfolio education",
+    "last_reviewed": "2026-06-30",
+    "disclaimer": "This page explains product structure and does not recommend a specific investment allocation.",
+    "implementation_mapping": { "dynamic_route_slug": "liquidity-and-divisibility", "category_hub": "/wiki/topics", "seo_template": "WikiArticlePage" }
+  }
+]
