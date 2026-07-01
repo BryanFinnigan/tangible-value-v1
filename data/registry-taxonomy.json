@@ -1,0 +1,55 @@
+{
+  "registry_name": "Wiki",
+  "canonical_root": "/wiki",
+  "page_count_after_wiki_expansion": 20,
+  "page_count_breakdown": {
+    "wiki_homepage": 1,
+    "asset_category_hub_pages": 6,
+    "asset_detail_pages": 6,
+    "wiki_topic_index_pages": 1,
+    "wiki_article_pages": 6
+  },
+  "asset_category_hubs": [
+    {
+      "path": "/wiki/gold-coins",
+      "label": "Gold Coins",
+      "asset_count": 3,
+      "seo_role": "Core sovereign bullion, fractional gold, and internationally recognized gold coin references."
+    },
+    {
+      "path": "/wiki/silver-coins",
+      "label": "Silver Coins",
+      "asset_count": 1,
+      "seo_role": "Recognizable sovereign silver and historic silver coin references for value and resale context."
+    },
+    {
+      "path": "/wiki/constitutional-silver",
+      "label": "Constitutional Silver",
+      "asset_count": 1,
+      "seo_role": "U.S. 90% silver categories with melt value, divisibility, and sell-side education."
+    },
+    {
+      "path": "/wiki/gold-bars",
+      "label": "Gold Bars",
+      "asset_count": 1,
+      "seo_role": "Gold bar formats with assay, premium, and liquidity considerations."
+    },
+    {
+      "path": "/wiki/silver-bars",
+      "label": "Silver Bars",
+      "asset_count": 0,
+      "seo_role": "Silver bar formats, bulk silver storage, and lower-premium silver product education."
+    },
+    {
+      "path": "/wiki/platinum-palladium",
+      "label": "Platinum & Palladium",
+      "asset_count": 0,
+      "seo_role": "Platinum and palladium products with specialty-market liquidity context."
+    }
+  ],
+  "wiki_topic_index": {
+    "path": "/wiki/topics",
+    "label": "Wiki Topics",
+    "seo_role": "Educational reference articles supporting precious-metal valuation, authentication, and resale decisions."
+  }
+}
