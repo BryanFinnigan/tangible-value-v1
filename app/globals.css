@@ -485,3 +485,48 @@ a { color: inherit; }
     position: static;
   }
 }
+.siteHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 22px 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  border-bottom: 1px solid #ded7cb;
+}
+
+.brand {
+  color: #1f2933;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.navLinks a {
+  color: #8a6f3d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 700px) {
+  .siteHeader {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .navLinks {
+    font-size: 0.95rem;
+  }
+}
