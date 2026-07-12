@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./morgan.module.css";
 
 export const metadata = {
   title: "Morgan Silver Dollar Guide",
