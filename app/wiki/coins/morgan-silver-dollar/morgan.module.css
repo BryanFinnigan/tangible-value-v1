@@ -1,0 +1,161 @@
+:global(.wikiMetaBar) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+:global(.wikiMetaBar span) {
+  padding: 8px 12px;
+  border: 1px solid #ded7cb;
+  border-radius: 999px;
+  color: #5e6670;
+  background: #fff;
+  font-size: 0.86rem;
+}
+
+:global(.wikiInfographicPanel) {
+  display: grid;
+  grid-template-columns: minmax(0, 0.72fr) minmax(320px, 0.55fr);
+  align-items: start;
+  gap: 32px;
+  margin: 12px 0 40px;
+  padding: 30px;
+  border-radius: 30px;
+  background: #102b40;
+  color: #fff;
+  box-shadow: 0 18px 55px rgba(16, 43, 64, 0.16);
+}
+
+:global(.wikiInfographicPanel h2) {
+  margin: 8px 0 14px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+:global(.wikiInfographicPanel p:not(.eyebrow)) {
+  color: #dfe8ee;
+  line-height: 1.75;
+}
+
+:global(.wikiInfographic) {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 22px;
+  background: #071a2b;
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.28);
+}
+
+:global(.staticCard) {
+  cursor: default;
+}
+
+:global(.staticCard:hover) {
+  transform: none;
+}
+
+:global(.mintMarkGrid) {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+:global(.mintMarkGrid div) {
+  display: flex;
+  min-height: 92px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid #ded7cb;
+  border-radius: 18px;
+  background: #fbfaf7;
+  text-align: center;
+}
+
+:global(.mintMarkGrid strong) {
+  color: #8a6f3d;
+  font-size: 1.45rem;
+}
+
+:global(.mintMarkGrid span) {
+  color: #5e6670;
+  font-size: 0.9rem;
+}
+
+:global(.checkList) {
+  display: grid;
+  gap: 12px;
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+:global(.checkList li) {
+  position: relative;
+  padding: 14px 16px 14px 46px;
+  border: 1px solid #eee6da;
+  border-radius: 16px;
+  background: #fbfaf7;
+}
+
+:global(.checkList li::before) {
+  content: "✓";
+  position: absolute;
+  left: 17px;
+  top: 13px;
+  color: #8a6f3d;
+  font-weight: 800;
+}
+
+:global(.toolLink) {
+  display: block;
+  margin: 12px 0;
+  padding: 14px 16px;
+  border: 1px solid #c9a96a;
+  border-radius: 16px;
+  color: #6f5527;
+  background: #fbfaf7;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+:global(.toolLink:hover) {
+  background: #f2eee6;
+}
+
+@media (max-width: 900px) {
+  :global(.wikiInfographicPanel) {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+
+  :global(.mintMarkGrid) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  :global(.wikiInfographicPanel) {
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  :global(.wikiMetaBar) {
+    gap: 7px;
+  }
+
+  :global(.wikiMetaBar span) {
+    font-size: 0.78rem;
+  }
+
+  :global(.mintMarkGrid) {
+    grid-template-columns: 1fr;
+  }
+
+  :global(.wikiPanel) {
+    padding: 22px;
+  }
+}
