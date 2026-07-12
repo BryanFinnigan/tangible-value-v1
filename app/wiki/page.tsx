@@ -31,6 +31,34 @@ export default function WikiHomePage() {
       <section className="wikiPanel">
         <div className="sectionHeading">
           <div>
+            <p className="eyebrow">New Reference Guide</p>
+            <h2>Morgan Silver Dollar</h2>
+          </div>
+          <Link href="/wiki/coins/morgan-silver-dollar" className="textLink">Open guide →</Link>
+        </div>
+        <div className="wikiGrid twoCol">
+          <Link href="/wiki/coins/morgan-silver-dollar" className="wikiCard">
+            <div className="wikiCardMeta"><span>Coin Library</span><span>5-minute guide</span></div>
+            <h3>Dates, mint marks, silver content, and value drivers</h3>
+            <p>
+              Learn why two Morgan Dollars with the same silver content can carry very different market values,
+              then use the practical checklist before buying or selling.
+            </p>
+          </Link>
+          <Link href="/wiki/coins/morgan-silver-dollar" className="wikiCard">
+            <div className="wikiCardMeta"><span>Visual Reference</span><span>Mobile friendly</span></div>
+            <h3>Saveable Morgan Dollar infographic</h3>
+            <p>
+              A concise Tangible Value graphic covering 1878–1904 and 1921, 90% silver composition,
+              0.7734 troy ounce silver content, mint marks, and value factors.
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="wikiPanel">
+        <div className="sectionHeading">
+          <div>
             <p className="eyebrow">Reference Structure</p>
             <h2>Wiki Categories</h2>
           </div>
